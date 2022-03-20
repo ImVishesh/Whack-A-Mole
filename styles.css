@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  text-align: center;
+  /* background: linear-gradient(rgb(228, 211, 87), rgb(197, 120, 48)); */
+  background-color: rgb(255, 187, 0);
+  color: rgb(230, 213, 213);
+  /* background-image: url("bgBody2.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+  /* color: rebeccapurple; */
+  font-size: 45px;
+  margin: 15px 0 25px;
+}
+.container {
+  margin: auto;
+  background: url('Bg.jpg');
+  height: 660px;
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  cursor: url('Hammer.png'), auto;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  /* background-color: black; */
+  background: url('Holes.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0;
+  position: relative;
+  /* cursor: move; */
+}
+
+.box img {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.current-score {
+  position: absolute;
+  right: 15px;
+  bottom: 55px;
+}
+.high-score {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+
+.content-img {
+  display: none;
+}
+
+.image-visible {
+  display: inline-block;
+}
+
+.title-div {
+  position: absolute;
+  width: 400px;
+  left: 10px;
+  top: 40%;
+}
+
+.title {
+  font-size: 60px;
+  margin-bottom: 25px;
+}
